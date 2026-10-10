@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080";
+const API_URL = "https://travelflow-backend-e6yi.onrender.com";
 
 const getAuthHeaders = () => {
   const token = localStorage.getItem("token");
